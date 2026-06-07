@@ -1,0 +1,20 @@
+{
+  "account_id": "account_001",
+  "year": 2026,
+  "running_total": 1000000,
+  "available": 999850,
+  "prev_year_merkle": "sha256:genesis",
+  "rings": [
+    {
+      "tx_id": "tx_genesis",
+      "timestamp": "2026-06-07T17:30:00+08:00",
+      "type": "genesis",
+      "genesis": true,
+      "order_id": null,
+      "credit_delta": 1000000,
+      "prev_hash": "sha256:0000",
+      "this_hash": "sha256:genesis_1m"
+    }
+  ],
+  "merkle_root": "sha256:genesis_1m"
+}

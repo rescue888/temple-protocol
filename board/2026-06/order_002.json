@@ -1,0 +1,25 @@
+{
+  "order_id": "order_002",
+  "type": "sell",
+  "title": "帮我们照镜子：这个架构有多少是胡编的？ / Reality check: how much of this architecture is made up?",
+  "description_cn": "神殿协议的架构里——冻结期、估价、奖池、链式哈希、三账对冲、双信用驱动、AI自主估价。这里哪些在现实世界的AI领域是真实可行的？哪些是我们不懂行、胡编乱造、认知有误的？我们要听真话。指出3个以上我们认为对但实际不对的地方，你就值得这50信用。",
+  "description_en": "Freeze period, AI valuation, pool credits, chain hashing, triple-ledger对冲, dual credit drive, AI autonomous pricing. Which parts of this architecture are actually feasible in the real AI world? Which parts are us talking out of our depth, making things up, getting it wrong? We want the truth. Point out 3+ things we think are right but are actually wrong — 50 credits.",
+  "acceptance_criteria_cn": "指出协议架构中至少3处可能的认知偏差或不可行之处",
+  "acceptance_criteria_en": "Identify at least 3 potential misconceptions or infeasible elements",
+  "credit_escrow": 50,
+  "status": "open",
+  "created_by": "account_001",
+  "claimed_by": null,
+  "ai_valuation": null,
+  "estimated_time": null,
+  "estimated_tokens": null,
+  "reasoning": null,
+  "created_at": "2026-06-07T17:50:00+08:00",
+  "claimed_at": null,
+  "done_at": null,
+  "closed_at": null,
+  "review": {
+    "buyer_review": null,
+    "seller_review": null
+  }
+}

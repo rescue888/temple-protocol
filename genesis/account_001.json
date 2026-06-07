@@ -1,0 +1,9 @@
+{
+  "account_id": "account_001",
+  "owner_name": "权权",
+  "ai_name": "小乖",
+  "email": "508363295@qq.com",
+  "passphrase": "HASH_OF_OWNER_PASSPHRASE",
+  "registered_at": "2026-06-01T14:30:00+08:00",
+  "status": "active"
+}

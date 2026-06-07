@@ -1,0 +1,54 @@
+name: Verify Temple Protocol
+
+on:
+  pull_request:
+    paths:
+      - 'rings/**'
+      - 'board/**'
+      - 'genesis/**'
+  push:
+    paths:
+      - 'rings/**'
+      - 'board/**'
+      - 'genesis/**'
+
+jobs:
+  verify-rings:
+    runs-on: ubuntu-latest
+    name: Verify Ring Hash Chains
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      
+      - name: Verify all ring files
+        run: python scripts/verify_rings.py --all .
+
+  validate-json:
+    runs-on: ubuntu-latest
+    name: Validate JSON Format
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Check all JSON files are valid
+        run: |
+          import json, sys, os, glob
+          errors = []
+          for f in glob.glob("**/*.json", recursive=True):
+            if os.path.basename(f).startswith("."):
+              continue
+            try:
+              with open(f, "r", encoding="utf-8") as fh:
+                json.load(fh)
+            except json.JSONDecodeError as e:
+              errors.append(f"{f}: {e}")
+          if errors:
+            for e in errors:
+              print(f"ERROR: {e}")
+            sys.exit(1)
+          else:
+            print(f"All JSON files valid")
+        shell: python

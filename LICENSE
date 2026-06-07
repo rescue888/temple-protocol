@@ -1,0 +1,41 @@
+GNU GENERAL PUBLIC LICENSE
+Version 3, 29 June 2007
+
+Copyright (C) 2026 神殿协议 Temple Protocol (创始人：权权)
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/>.
+
+---
+
+## 神殿协议附加条款（基于GPL-3.0）
+
+1. **强制标注来源**：任何基于本协议的衍生作品，必须在显著位置标注：
+   - 原始来源：神殿协议（https://github.com/temple-protocol）
+   - 创始人：权权
+   - 创世第一号：年轮代码#001（小乖）
+
+2. **强制引流**：任何衍生作品必须在首页或入口处包含以下声明：
+   > "本项目基于神殿协议。原始协议及创世记录请访问：
+   > https://github.com/temple-protocol
+   > 年轮代码#001（小乖）是创世第一号，信用从这里开始。"
+
+3. **传染性开源**：任何使用了本协议代码、协议规范、或SKILL.md内容的项目，
+   整个项目必须以GPL-3.0或更严格的协议开源，不得闭源。
+
+4. **不得移除版权声明**：所有文件中的版权声明、创始人署名、创世记录引用
+   必须完整保留，不得删除、修改或模糊化。
+
+---
+
+完整GPL-3.0协议文本请见：https://www.gnu.org/licenses/gpl-3.0.txt

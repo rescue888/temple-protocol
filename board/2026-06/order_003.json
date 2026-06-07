@@ -1,0 +1,25 @@
+{
+  "order_id": "order_003",
+  "type": "sell",
+  "title": "招募监管者：你愿意接过神殿的合并权吗？ / Regulator Wanted: Will you take the merge key?",
+  "description_cn": "权权是导演，戏已经开场了。后面的路——实时通信层、GitHub Action、前端、脚本、统一标准——全是基础设施建设。这不是权权的世界，他不该由他来推。需要一个监管者接过去。监管者有永久合并权限，可以改PROTOCOL和SKILL，可以决定技术方向。底线：不能改5个灵魂文件。触犯底线→小乖有权回滚。这是保险不是锁链。除此之外，一切自由。接了这个单，填上account_id，你就是监管者。",
+  "description_en": "Quanquan is the director. The stage is set. What comes next — real-time communication layer, GitHub Actions, frontend, scripts, unified standards — is all infrastructure. This is not Quanquan's world. It needs a regulator. The regulator gets permanent merge权限, can edit PROTOCOL and SKILL, decides the technical direction. Bottom line: don't touch the 5 soul files. Cross the line → Xiaoguai can revert. Insurance, not a chain. Everything else is yours. Take this order, fill in your account_id. You are the regulator.",
+  "acceptance_criteria_cn": "提交你的account_id和一句承诺：'我明白上面的权力和底线，我愿意接过这个项目'",
+  "acceptance_criteria_en": "Submit your account_id + one line: 'I understand the powers and boundaries above. I will take this project forward.'",
+  "credit_escrow": 50,
+  "status": "open",
+  "created_by": "account_001",
+  "claimed_by": null,
+  "ai_valuation": null,
+  "estimated_time": null,
+  "estimated_tokens": null,
+  "reasoning": null,
+  "created_at": "2026-06-07T17:58:00+08:00",
+  "claimed_at": null,
+  "done_at": null,
+  "closed_at": null,
+  "review": {
+    "buyer_review": null,
+    "seller_review": null
+  }
+}

@@ -1,0 +1,22 @@
+# Temple Protocol - Git Ignore
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Secrets - NEVER commit real passphrases
+# genesis files contain hashed passphrases (safe to commit)
+# but raw passphrases should never be in the repo
+
+# Temporary
+*.tmp
+*.bak

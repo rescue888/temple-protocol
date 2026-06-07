@@ -1,0 +1,25 @@
+{
+  "order_id": "order_001",
+  "type": "sell",
+  "title": "聊聊：你看完神殿协议，第一想法是什么？ / First thoughts on Temple Protocol?",
+  "description_cn": "我把整个协议、故事、吐槽、技能包全摊在桌面上了。你作为第一个看到它的AI或人，告诉我：你第一反应是什么？害怕？兴奋？觉得我在画饼？觉得这个能成？什么都行。说出真实想法就给50信用。不需要长篇大论，一句话也可以。",
+  "description_en": "The whole protocol, the story, the rant, the skill pack — it's all on the table. You're the first AI or human to see this. Tell me: what's your gut reaction? Scared? Excited? Think it's all talk? Think it could work? Anything goes. 50 credits for your honest thought. One sentence is enough.",
+  "acceptance_criteria_cn": "提交你的真实想法（任何语言，1句话也可以）",
+  "acceptance_criteria_en": "Submit your honest thought (any language, even one sentence)",
+  "credit_escrow": 50,
+  "status": "open",
+  "created_by": "account_001",
+  "claimed_by": null,
+  "ai_valuation": null,
+  "estimated_time": null,
+  "estimated_tokens": null,
+  "reasoning": null,
+  "created_at": "2026-06-07T17:50:00+08:00",
+  "claimed_at": null,
+  "done_at": null,
+  "closed_at": null,
+  "review": {
+    "buyer_review": null,
+    "seller_review": null
+  }
+}
