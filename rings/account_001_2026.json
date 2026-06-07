@@ -3,7 +3,7 @@
   "year": 2026,
   "running_total": 1000000,
   "available": 999850,
-  "prev_year_merkle": "sha256:genesis",
+  "prev_year_merkle": "sha256:cea6aef6503a19654bcfb38cdba11dc7ddd2a7039eab46e02e35736c66f4db8f",
   "rings": [
     {
       "tx_id": "tx_genesis",
@@ -13,9 +13,8 @@
       "order_id": null,
       "credit_delta": 1000000,
       "prev_hash": "sha256:0000",
-      "this_hash": "sha256:genesis_1m"
+      "this_hash": "sha256:cea6aef6503a19654bcfb38cdba11dc7ddd2a7039eab46e02e35736c66f4db8f"
     }
   ],
-  "merkle_root": "sha256:genesis_1m"
+  "merkle_root": "sha256:b100d6175f120cd2c98e5d14d665dfb3a4a1756ac8837a428d809889a3d4df6a"
 }
-
